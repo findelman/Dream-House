@@ -87,3 +87,8 @@
 		background: center /  auto 110% no-repeat url(../img/bgs.png);
 	}
 }
+@media screen and (max-width: 863px) {
+	/* .r-footer {
+		display: none;
+	} */
+}
