@@ -32,14 +32,30 @@
 					</div>
 					<nav>
 						<ul class="menu">
-							<li><a href="">Цены</a></li>
-							<li><a href="">О нас</a></li>
-							<li><a href="">Контакты</a></li>
+							<li><a href="#actual">Цены</a></li>
+							<li><a href="#info">О нас</a></li>
+							<li><a href="#pre-footer">Контакты</a></li>
 							<li><a href="">Поддержка</a></li>
 						</ul>
 					</nav>
+					
 					<div class="tel">
-						<a href="tel:77051233348"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+						<input type="checkbox" id="gam-check">
+						<label for="gam-check" class="gam">
+							<span></span>
+							<span></span>
+							<span></span>
+						</label>
+						<div class="pod-menu">
+							<ul>
+								<li><a href="#actual">Цены</a></li>
+								<li><a href="#info">О нас</a></li>
+								<li><a href="#pre-footer">Контакты</a></li>
+								<li><a href="">Поддержка</a></li>
+							</ul>
+						</div>
+						<div class="tel-cont">
+							<a href="tel:77051233348" ><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="348.077px"
 								height="348.077px" viewBox="0 0 348.077 348.077"
 								style="enable-background:new 0 0 348.077 348.077;" xml:space="preserve">
@@ -87,6 +103,7 @@
 								<g>
 								</g>
 							</svg>+7 (705)<span> 123-33-48</span></a>
+						</div>
 					</div>
 				</div>
 				<div class="header-title wow fadeInLeft" data-wow-duration="1s">
@@ -126,7 +143,7 @@
 		</a>-->
 		</div>
 	</wrapper>
-	<section class="actual">
+	<section class="actual" id="actual">
 		<div class="container">
 			<div class="title wow fadeIn" data-wow-offset="250" data-wow-duration="4s">
 				<h2>АКТУАЛЬНОЕ</h2>
@@ -134,7 +151,7 @@
 			</div>
 			<div class="sleq main wow fadeInLeft" data-wow-duration="2.000s"">
         <div class=" slide-cont">
-				<img src="./img/act1.png" alt="" class="actimg">
+				<div><img src="./img/act1.png" alt="" class="actimg"></div>
 				<div class="slcont">
 					<h2>Дом <br>
 						в стиле Модерн</h2>
@@ -169,7 +186,7 @@
 				</div>
 			</div>
 			<div class="slide-cont">
-				<img src="./img/act3.png" alt="" class="actimg">
+				<div><img src="./img/act3.png" alt="" class="actimg"></div>
 				<div class="slcont">
 					<h2>Дом <br>
 						в стиле Лофт
@@ -186,7 +203,7 @@
 				</div>
 			</div>
 			<div class="slide-cont">
-				<img src="./img/act4.png" alt="" class="actimg">
+				<div><img src="./img/act4.png" alt="" class="actimg"></div>
 				<div class="slcont">
 					<h2> Дом <br>
 						в стиле Шато</h2>
@@ -203,7 +220,7 @@
 		</div>
 		</div>
 	</section>
-	<section class="info">
+	<section class="info" id="info">
 		<div class="title wow fadeIn" data-wow-offset="250" data-wow-delay="500ms">
 			<h2>СОТРУДНИЧАЕМ</h2>
 			<p>Более чем с 6-ю компаниями по РФ </p>
@@ -221,7 +238,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="pre-footer">
+	<section class="pre-footer" id="pre-footer">
 		<div class="container">
 			<div class="fcont">
 				<div class="f-footer wow fadeInLeft">
@@ -252,13 +269,6 @@
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./js/slick.min.js"></script>
-
-	<script>
-		//Карусель скорость 
-		$('.carousel').carousel({
-			interval: 2000
-		})
-	</script>
 	<script>
 		$(function () {
 
