@@ -56,16 +56,19 @@
 		padding: 0px 10px;
 	}
 	.pslcont {
-		width: unset;
+				width: unset;
 	}
 	
 }
 @media screen and (max-width: 1000px){
-	.actimg {
-		margin: 0 auto;
+	.slide-cont {
+		flex-flow: column;
 	}
 	.slcont {
 		text-align: center;
+	}
+	.slide-cont {
+		align-items: center;
 	}
 	.slcont h2 {
 		padding-top: 29px;
@@ -77,8 +80,9 @@
 		margin: 0 auto;
 	}
 	.sldotq{
-
+		justify-content: center;
 		margin-top: -11px;
+		flex-flow: wrap;
 	}
 	.actual {
 		background: center /  auto 110% no-repeat url(../img/bgs.png);
@@ -106,4 +110,13 @@
 	.r-footer {
 		width: 100%;
 	}
+}
+@media screen and (max-width: 426px) {
+	.tel-cont {
+		display: none;
+	}
+	.tel {
+		min-width: unset;
+	}
+	
 }
