@@ -73,16 +73,13 @@ h1 {
   display: flex;
   align-items: inherit;
 }
-
 .menu a:hover {
   color: #A08CED;
 }
-
 .header-title {
   padding-top: 143px;
   color: white;
 }
-
 .btn {
   border: none;
   padding: 16px 35px;
@@ -200,13 +197,11 @@ h1 {
   background: center /100% 114% no-repeat url(../img/fbg.png);
   padding-bottom: 80px;
 }
-
 .f-title {
   color: #A08CED;
   font-weight: bold;
 font-size: 32px;
 }
-
 .f-title a {
   font-weight: bold;
 font-size: 21px;
@@ -331,7 +326,6 @@ footer p {
 .slick-slider {
   margin-top: 40px;
 }
-/* wrapper 2 end */
 .actimg {
   max-width: 555px;
 }
