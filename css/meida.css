@@ -96,9 +96,6 @@
 	.gam {
 		display: block;
 	}
-	.navbar {
-		align-items: flex-start;
-	}
 	.slide-cont img {
 		width: 100%;
 	  }
@@ -111,12 +108,9 @@
 		width: 100%;
 	}
 }
-@media screen and (max-width: 426px) {
-	.tel-cont {
-		display: none;
-	}
+@media screen and (max-width: 550px) {
 	.tel {
-		min-width: unset;
+		display: none;
 	}
 	
 }
