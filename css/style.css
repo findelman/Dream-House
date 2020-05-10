@@ -7,14 +7,6 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
-  width: 10px;
-  background: #eee;
-}
-::-webkit-scrollbar-thumb {
-  background: #a08ced9e;
-  border-radius: 20px;
-}
 p {
   font-size: 22px;
   color: #A1A1A1;
@@ -38,12 +30,53 @@ h1 {
 a {
   color: white;
 }
-
 .container {
   max-width: 1167px;
   margin: 0 auto;
 }
-
+.sl1,.sl2,.sl3 {
+  height: 100vh;
+}
+.sl1 {
+  background: center / cover no-repeat url(../img/bg.png);
+}
+.sl2{
+  background: center / cover no-repeat url(../img/slbg2.png);
+}
+.sl3{
+  background: center / cover no-repeat url(../img/slbg3.png);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #eee;
+}
+::-webkit-scrollbar-thumb {
+  background: #a08ced9e;
+  border-radius: 20px;
+}
+.header-title p{
+  font-size: 22px;
+}
+.header-title h1 {
+  padding-top: 74px;
+  font-size: 64px;
+}
+.header-title h2 {
+  font-size: 43px;
+}
+.header-title button {
+  padding: 16px 35px;
+  font-size: 22px;
+}
+.menu {
+  font-size: 18px;
+}
+.tel {
+  font-size: 18px;
+}
+.logobox span {
+  font-size: 15px;
+}
 .gam {
   display: none;
   cursor: pointer;
@@ -106,7 +139,6 @@ a {
 input[type="checkbox"] {
   display: none;
 }
-
 .slfix {
   position: absolute;
   top: 0;
@@ -114,7 +146,6 @@ input[type="checkbox"] {
   left: 0;
   z-index: 100;
 }
-
 .navbar {
   align-items: center;
   display: flex;
@@ -342,12 +373,10 @@ input[type="checkbox"] {
 .pslcont p:nth-child(1) {
   padding-bottom: 11px;
 }
-
 .slcont a:hover {
   background: #A08CED;
   color: white;
 }
-
 .info {
   background: center / cover no-repeat url(../img/bghelp.png);
   padding-bottom: 120px;
@@ -364,15 +393,12 @@ input[type="checkbox"] {
 .inf-qs {
   width: 100%;
 }
-
 .infl-img .container {
   padding: 50px 25px;
   grid-gap: 56px;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
-  grid-row: auto;
+  grid: auto  / repeat( auto-fit, minmax(250px, 1fr));
 }
-
 .pre-footer {
   background: center /100% 114% no-repeat url(../img/fbg.png);
   padding-bottom: 80px;
@@ -443,73 +469,16 @@ footer p {
   box-shadow: -1px 1px 6px 6px #8a7575e3;
 }
 
-/*  <a href="tel:77051233348" >+7 (705) 123 - 33 - 48</a>*/
-
 .pre-footer {
   overflow: hidden;
 }
-
-/* wrapper2 */
-
-.sldotq {
-  display: flex;
-}
-
-.sldotq button {
-  margin: 17px 10px;
-  font-size: 0;
-  border: none;
-  height: 117px;
-  width: 122px;
-  opacity: 0.4;
-  outline: none;
-  border-radius: 39%;
-  transition: 400ms;
-}
-
-.sldotq li:nth-child(1) button {
-  background: url(../img/nsl1.png);
-}
-
-.sldotq li:nth-child(2) button {
-  background: url(../img/nsl2.png);
-}
-
-.sldotq li:nth-child(3) button {
-  background: url(../img/act3.png);
-}
-
-.sldotq li:nth-child(4) button {
-  background: url(../img/nsl4.png);
-}
-
-.sldotq button:hover {
-  opacity: 1;
-}
-
-.sldotq button {
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-}
-
-.sldotq .slick-active button {
-  opacity: 1;
-  box-shadow: -2px 0px 8px 8px #887888;
-}
-
 .slide-cont {
+  margin-top: 40px;
   display: flex !important;
 }
-
-.slick-slider {
-  margin-top: 40px;
-}
-
 .actimg {
   max-width: 555px;
 }
-
 .r-footer {
   width: 48%;
 }

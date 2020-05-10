@@ -63,11 +63,11 @@
 }
 
 .slick-slide {
-    outline:none;
     display: none;
     float: left;
     height: 100%;
     min-height: 1px;
+    outline: none;
 }
 
 [dir='rtl'] .slick-slide {
@@ -95,7 +95,68 @@
     height: auto;
     border: 1px solid transparent;
 }
+ /* button */
 
+ .sldotq {
+    display: flex;
+  }
 .slick-arrow.slick-hidden {
     display: none;
 }
+.sldotq li:nth-child(1) button {
+    background: url(../img/nsl1.png);
+  }
+  .sldotq li:nth-child(2) button {
+    background: url(../img/nsl2.png);
+  }
+  .sldotq li:nth-child(3) button {
+    background: url(../img/act3.png);
+  }
+  .sldotq li:nth-child(4) button {
+    background: url(../img/nsl4.png);
+  }
+  .sldotq button:hover {
+    opacity: 1;
+  }
+  .sldotq button {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  .sldotq .slick-active button {
+    opacity: 1;
+    box-shadow: -2px 0px 8px 8px #887888;
+  }
+  .sldotq button {
+    margin: 17px 10px;
+    font-size: 0;
+    border: none;
+    height: 117px;
+    width: 122px;
+    opacity: 0.4;
+    outline: none;
+    border-radius: 39%;
+    transition: 400ms;
+  }
+  .nav-main_slide {
+      display: flex;
+    width: 100%;
+      position: absolute;
+      bottom: 19px;
+      justify-content: center;   
+  }
+  .nav-main_slide button {
+    display: none; 
+  }
+  .nav-main_slide li {
+      cursor: pointer;
+      margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    background-color: unset;
+    border: 1px solid white;
+  }
+  .nav-main_slide li.slick-active {      
+      background: white;
+  }
