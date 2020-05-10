@@ -111,6 +111,19 @@
 @media screen and (max-width: 550px) {
 	.tel {
 		display: none;
+	}	
+}
+@media screen and (max-width: 397px) {
+	.header-title {
+		padding-top: 58px;
 	}
-	
+	.header-title h1 {
+		font-size: 52px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	p {
+		font-size: 19px;
+	}
 }
